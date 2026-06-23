@@ -19,4 +19,4 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven
-        run: mvn clean package -DskipTests
+        run: cd datamask-api && mvn clean package -DskipTests
